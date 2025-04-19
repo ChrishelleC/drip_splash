@@ -6,6 +6,8 @@ class LoginScreen extends StatelessWidget {
   final passwordController = TextEditingController();
   final AuthService _authService = AuthService();
 
+  LoginScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

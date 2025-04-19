@@ -8,6 +8,8 @@ class RegisterScreen extends StatelessWidget {
   final lastNameController = TextEditingController();
   final AuthService _authService = AuthService();
 
+  RegisterScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

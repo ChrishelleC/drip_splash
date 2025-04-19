@@ -4,7 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 
 class ChatScreen extends StatelessWidget {
   final String boardName;
-  ChatScreen({required this.boardName});
+  ChatScreen({super.key, required this.boardName});
 
   final messageController = TextEditingController();
 
